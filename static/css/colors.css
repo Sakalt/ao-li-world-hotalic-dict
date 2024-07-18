@@ -1,0 +1,91 @@
+:root {
+    --background-color: white;
+    --header-color: white;
+    --footer-color: white;
+    --text-color: black;
+    --entry-border-color: #202020;
+    --button-search-color: #d7d7d7;
+    --button-page-color: white;
+    --button-separate-color: #b0b0b0;
+    --button-disabled-color: #a0a0a0;
+    --button-border-color: gray;
+
+    --about-color: white;
+    --about-content-color: white;
+    --search-color: white;
+    --content-color: white;
+    --content-border-color: #c0c0c0;
+    --type-border-color: #b0b0b0;
+    --num-border-color: #303030;
+    --example-color: #f6f6f6;
+    --example-border-color: #a0a0a0;
+    --example-icon-color: #606060;
+
+    --link-color: #366ad3;
+    --link-hover-color: #e53;
+
+    --phun-color: #014f41;
+    --light-phun-color: #018f75;
+    --pale-phun-color: #0db580;
+
+    --noun: #8a1a12;
+    --prefix: #db584f;
+    --suffix: #db584f;
+    --pronoun: #8a1a12;
+    --verb: #8a6612;
+    --adjective: #568a12;
+    --adverb: #128a34;
+    --particle: #12788a;
+    --quantifier: #123c8a;
+    --interjection: #8A1288;
+    --conjunction: #303030;
+    --numeral: #5a128a;
+    --modal: #8A5112;
+    --preposition: #3F2508;
+}
+
+:root:has(.mainContainer.dark-theme) {
+    --background-color: #151515;
+    --header-color: #1a1a1a;
+    --footer-color: #101010;
+    --text-color: #d0d0d0;
+    --entry-border-color: #505050;
+    --button-search-color: #383838;
+    --button-page-color: #303030;
+    --button-separate-color: #454545;
+    --button-disabled-color: #151515;
+    --button-border-color: #505050;
+
+    --about-color: #383838;
+    --about-content-color: #282828;
+    --search-color: #282828;
+    --content-color: #202020;
+    --content-border-color: #404040;
+    --type-border-color: #606060;
+    --num-border-color: #a0a0a0;
+    --example-color: #303030;
+    --example-border-color: #808080;
+    --example-icon-color: #808080;
+
+    --link-color: #72b4ff;
+    --link-hover-color: #ff7c5f;
+
+    --phun-color: #00604e;
+    --light-phun-color: #009378;
+    --pale-phun-color: #014f41;
+
+    --noun: #e12a1d;
+    --prefix: #b53229;
+    --suffix: #b53229;
+    --pronoun: #e12a1d;
+    --verb: #e2ae32;
+    --adjective: #93d241;
+    --adverb: #33c45c;
+    --particle: #3ab7cd;
+    --quantifier: #4774c9;
+    --interjection: #ca32c8;
+    --conjunction: #b8b8b8;
+    --numeral: #8b3ac1;
+    --modal: #a46925;
+    --preposition: #784b18;
+}
