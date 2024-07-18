@@ -1,0 +1,75 @@
+@import url(./colors.css);
+
+.type.noun {
+	color: var(--noun);
+	border-color: var(--noun) !important;
+}
+
+.type.prefix {
+	color: var(--prefix);
+	border-color: var(--prefix) !important;
+}
+
+.type.suffix {
+	color: var(--suffix);
+	border-color: var(--suffix) !important;
+}
+
+.type.pronoun {
+	color: var(--pronoun);
+	border-color: var(--pronoun) !important;
+}
+
+.type.verb {
+	color: var(--verb);
+	border-color: var(--verb) !important;
+}
+
+.type.adjective {
+	color: var(--adjective);
+	border-color: var(--adjective) !important;
+}
+
+.type.adverb {
+	color: var(--adverb);
+	border-color: var(--adverb) !important;
+}
+
+.type.particle {
+	color: var(--particle);
+	border-color: var(--particle) !important;
+}
+
+.type.quantifier {
+	color: var(--quantifier);
+	border-color: var(--quantifier) !important;
+}
+
+.type.interjection {
+	color: var(--interjection);
+	border-color: var(--interjection) !important;
+}
+
+.type.conjunction {
+	color: var(--conjunction);
+	border-color: var(--conjunction) !important;
+}
+
+.type.numeral {
+	color: var(--numeral);
+	border-color: var(--numeral) !important;
+}
+
+.type.modal {
+	color: var(--modal);
+	border-color: var(--modal) !important;
+}
+
+.type.preposition {
+	color: var(--preposition);
+	border-color: var(--preposition) !important;
+}
+
+.mainContainer.dark-theme .type {
+	color: white;
+}
